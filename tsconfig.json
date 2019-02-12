@@ -12,7 +12,12 @@
     "typeRoots": ["node_modules/@types"],
     "lib": ["es2017", "dom"],
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@angular-study/material": ["libs/material/src/index.ts"],
+      "@angular-study/core-data": ["libs/core-data/src/index.ts"],
+      "@angular-study/ui-login": ["libs/ui-login/src/index.ts"],
+      "@angular-study/ui-toolbar": ["libs/ui-toolbar/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
